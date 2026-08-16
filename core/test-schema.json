@@ -1,0 +1,36 @@
+{
+  "title": "String - The official name of the program",
+  "provider": "String - The agency (e.g., CHED, DOST, DSWD)",
+  "category": "String - (e.g., Scholarship, Financial Assistance, Training)",
+  "description": "String - Brief description of the Program",
+
+  "coverage":
+  {
+    "type": "String - nationwide, regional, city, district",
+    "locations": ["e.g., Nationwide, Region VII, Manila, Manila - District 5"]
+  },
+
+  "eligibility":
+  {
+    "age_min": "Int - Minimum age",
+    "age_max": "Int - Maximum age",
+    "education_levels": "String - State Education level eligibility",
+    "employment_status": "String - State whatever is in the site",
+    "income_requirement": "Float and/or Range - Income range or income max, state if per annum",
+    "residency_requirement": "String - In reference to the program area scope",
+    "other_requirements": "Other significant requirements"
+  },
+
+  "benefits": [],
+  "requirements": [],
+
+  "application_start": "String - Application start date",
+  "deadline": "String - Application cutoff date",
+  "source_url": "String - The exact URL where the data was found",
+
+  "application_process": "...",
+  "application_url": "if available (not onsite/physical location)",
+
+  "last_verified_at": "...",
+  "status": "available"
+}
